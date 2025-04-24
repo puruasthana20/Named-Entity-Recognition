@@ -28,8 +28,6 @@ A sleek and interactive Named Entity Recognition (NER) web application built usi
 ## 🧪 How to Run
 
 ### 1. Clone the repository
-git clone https://github.com/yourusername/ner-project.git
-cd ner-project 
 
 ### 2. Install dependencies
 pip install -r requirements.txt
