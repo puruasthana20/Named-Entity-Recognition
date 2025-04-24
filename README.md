@@ -71,13 +71,6 @@ The training config used:
 - Dropout: `0.1`
 - Epochs: `∞` (early stopping via patience)
 
-## 🛠 Setup Instructions
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/ner-streamlit-app.git
-   cd ner-streamlit-app
-
 
 📚 Dependencies
 spaCy
