@@ -1,0 +1,28 @@
+## 🔽 Download the Trained NER Model
+
+The model is too large to host directly on GitHub, so download it from Google Drive:
+
+pip install gdown
+
+# Download
+gdown https://drive.google.com/uc?id=1upbKGES-KGCHJd4oWatGH1sJ8mVQeCAR
+
+# Install
+pip install en_pipeline-0.0.0.tar.gz
+
+
+https://drive.google.com/file/d/1upbKGES-KGCHJd4oWatGH1sJ8mVQeCAR/view?usp=drive_link
+
+Then in Python:
+import spacy
+nlp = spacy.load("en_pipeline")
+
+
+
+Update `Streamlit` App to Use Installed Model
+
+In your `app.py`:
+```python
+@st.cache_resource
+def load_model():
+    return spacy.load("en_pipeline")
