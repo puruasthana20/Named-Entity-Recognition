@@ -10,7 +10,6 @@ This Named Entity Recognition model was **custom-built and trained from scratch 
 - Clean and modern web interface with Streamlit
 - Extracts and highlights entities from user-input text
 - Displays entity labels such as PERSON, ORG, GPE, DATE, MONEY, etc.
-- Easy to run and deploy
 
 ---
 
@@ -48,6 +47,9 @@ Content Tagging
 Knowledge Graph Construction
 Information Retrieval
 
+## future scope 
+Evaluation of responses
+Accuracy of responses
 
 ## 🧪 About the Training Data
 
